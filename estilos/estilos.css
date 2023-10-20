@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 20px;
+  border-bottom: 1px solid gray;
+  text-align: right;
+  padding-top: 80px;
+  background-color: #ccc;
+}
+
+header a {
+  text-transform: uppercase;
+  margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+header a:hover {
+  font-weight: bold;
+  color: rgb(235, 237, 100);
+}
+
+#conteudo {
+  width: 70%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.info-principal {
+  min-height: 200px;
+  display: flex;
+}
+
+.imagem-info {
+  height: 200px;
+  width: 50%;
+  overflow: hidden;
+}
+
+.imagem-info > img {
+  width: 200px;
+}
+
+.texto-info {
+  background-color: aqua;
+  min-height: 200px;
+}
